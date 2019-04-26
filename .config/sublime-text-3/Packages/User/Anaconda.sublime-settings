@@ -1,0 +1,8 @@
+{
+
+    "python_interpreter": "python3.7",
+
+    "anaconda_linting": false,
+
+    "mypy": true,
+}

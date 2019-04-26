@@ -1,0 +1,6 @@
+{
+	"yapf_command": "/usr/bin/yapf",
+    "config": {
+        "COLUMN_LIMIT": 72
+    }
+}

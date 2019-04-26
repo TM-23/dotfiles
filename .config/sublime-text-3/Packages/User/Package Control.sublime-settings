@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"Color Highlight",
+		"Djaneiro",
+		"Flask Completions",
+		"JavaScript Completions",
+		"jQuery",
+		"One Dark Color Scheme",
+		"One Dark Material - Theme",
+		"Package Control",
+		"PackageDev",
+		"PyYapf Python Formatter",
+		"requirementstxt",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-mypy",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeTmpl",
+		"Theme - One Dark"
+	]
+}

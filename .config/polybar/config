@@ -1,0 +1,77 @@
+[colors]
+forest-green = #0f4731
+dark-slate-gray = #081616
+powder-blue = #bddfc7
+cadet-blue = #518e6b
+dark-sea-green = #75b483
+very-dark-grayish-orange = #665544
+mostly-desaturated-dark-orange = #998866
+spring-sun = #eeffdd
+hippie-green = #558844
+county-green = #003322
+
+background = #DD665544
+foreground = #ddeeffdd
+border = #dd463F35
+
+[bar/boon]
+monitor = HDMI-0
+width = 100%:-28
+height = 28
+offset-x = 14
+offset-y = 15
+override-redirect = true
+bottom = true
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 4
+border-color = ${colors.border}
+
+font-0 = Termsynu:size=12:antialias=true;3
+font-1 = FontAwesome5Free:style=Solid:pixelsize=11:antialias=true;2
+font-2 = FontAwesome5Brands:style=Solid:pixelsize=11:antialias=true;2
+
+modules-center = i3
+modules-right = date
+
+tray-position = left
+tray-maxsize = 24
+tray-padding = 8.6
+tray-background = #dd998866
+
+[module/date]
+type = internal/date
+interval = 1
+time = %H:%M
+date = %d/%m/%Y
+label =  %time%   %date%
+format-background = #dd998866
+format-padding = 2
+
+[module/i3]
+type = internal/i3
+index-sort = true
+enable-click = false
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+
+fuzzy-match = true
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-default = 
+
+label-focused = %index%%{F#FFFFFF}  %icon%%{F-}
+label-focused-background = #dd998866
+label-focused-padding = 2
+label-unfocused = %index%%{F#FFFFFF}  %icon%%{F-}
+label-unfocused-padding = 2
+label-visible = %index%%{F#FFFFFF}  %icon%%{F-}
+label-visible-padding = 2
