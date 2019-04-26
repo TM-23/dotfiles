@@ -21,6 +21,7 @@ height = 28
 offset-x = 14
 offset-y = 15
 override-redirect = true
+wm-restack = i3
 bottom = true
 fixed-center = true
 
