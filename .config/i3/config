@@ -149,13 +149,15 @@ bindsym $mod+r mode "resize"
 # Automatically starting applications on i3 startup
 exec discord
 exec evolution
-exec kteatime
 
-# System info workspace setup
-exec_always ~/.config/i3/system_info_workspace_setup.sh
+# Start / restart workspace 6 programs
+exec_always "~/.config/i3/system_info_workspace_setup.sh"
 
 # Wallpaper setup (feh)
 exec_always --no-startup-id "~/.fehbg &"
+
+# kteatime restart (not displayed error fix)
+exec_always --no-startup-id "killall kteatime; sleep 0.5; kteatime &"
 
 # Polybar startup
 exec_always --no-startup-id $HOME/.config/polybar/launch_bar.sh
